@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shiny — a magpie for your clips</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ctext y='8.5' font-size='9'%3E🐦‍⬛%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;700;800&family=Anton&family=Pacifico&family=Caveat:wght@700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=28">
+</head>
+<body>
+<div id="sparks" aria-hidden="true"></div>
+<header class="top"><div class="wrap">
+  <button class="brand" data-go="hoard" aria-label="Home"><span id="logo"></span>Shiny</button>
+  <nav id="nav"></nav>
+  <button class="nbtn" data-act="notebook" title="Brand memory notebook">📓 Notebook</button>
+</div></header>
+<main><div class="wrap" id="view"></div></main>
+<footer>Shiny keeps everything in your browser. Source files never leave your machine. 🪶</footer>
+<dialog id="dlg"></dialog>
+<div class="toast" id="toast"></div>
+<script src="engine.js?v=28"></script>
+<script src="app.js?v=28"></script>
+</body>
+</html>
